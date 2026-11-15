@@ -1,0 +1,212 @@
+(footprint "FerriteBead_Axial_L13.8mm_D3.5mm_P27.8mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Axial ferrite bead / choke, 13.8 mm body, 27.8 mm lead spacing (original DipTrace pattern DIOAD2784W80L1384D350)")
+	(tags "ferrite bead axial")
+	(property "Reference" "REF**"
+		(at 0 -2.7 0)
+		(layer "F.SilkS")
+		(uuid "2abe72ce-2531-4655-a04c-8bf5797faaa2")
+		(effects
+			(font
+				(size 1.28 1.28)
+				(thickness 0.196)
+			)
+		)
+	)
+	(property "Value" "FerriteBead_Axial_L13.8mm_D3.5mm_P27.8mm"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "6f41538e-1e97-41ea-bf03-df9fcc7db57a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2f9c64-ef5d-4131-a8f9-13ca4dc37a4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e097b51-a8f6-42ae-b6d9-918bff344a66")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.788 0)
+		(end -6.9223 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31166431-5598-422d-be78-4d179bfb0981")
+	)
+	(fp_line
+		(start -6.9223 -1.75)
+		(end 6.9223 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f20f4c15-9749-4bc5-b77b-fb3847336414")
+	)
+	(fp_line
+		(start -6.9223 0)
+		(end -5.1707 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e49bf86a-d28c-4ea8-b963-034f2b809f14")
+	)
+	(fp_line
+		(start -6.9223 1.75)
+		(end -6.9223 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93cc5f69-3520-41e7-8436-d1340e4e2c82")
+	)
+	(fp_line
+		(start 6.9223 -1.75)
+		(end 6.9223 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c44ed527-c767-4f8b-8e2c-d3881c0b779b")
+	)
+	(fp_line
+		(start 6.9223 0)
+		(end 12.788 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aea26921-d3e0-4ccf-82ab-8d9571bfe355")
+	)
+	(fp_line
+		(start 6.9223 1.75)
+		(end -6.9223 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75d0ff25-60c7-4482-9d33-6baac54fec50")
+	)
+	(fp_line
+		(start -13.9 0)
+		(end -6.9223 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d1375cb-3a56-4878-8f15-6cb01fcb0709")
+	)
+	(fp_line
+		(start -6.9223 -1.75)
+		(end 6.9223 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "01ec9b2b-d077-43e6-b881-4eb4af20cf5a")
+	)
+	(fp_line
+		(start -6.9223 0)
+		(end -5.1707 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37ecf16a-6085-4619-88a7-fbdd0e5c6628")
+	)
+	(fp_line
+		(start -6.9223 1.75)
+		(end -6.9223 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68e6ee2b-1cb5-478b-964b-25a3baf079d1")
+	)
+	(fp_line
+		(start 6.9223 -1.75)
+		(end 6.9223 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3a1dc1e-6651-4049-bba6-be638b24cebe")
+	)
+	(fp_line
+		(start 6.9223 0)
+		(end 13.9 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d55c5bd-2056-4bf1-956d-ce2d0a2c2333")
+	)
+	(fp_line
+		(start 6.9223 1.75)
+		(end -6.9223 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4dfbc49b-bada-490a-9b6e-40eca6a3bca4")
+	)
+	(pad "1" thru_hole rect
+		(at -13.9 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b58c8de-2419-49c6-92ac-389305861b08")
+	)
+	(pad "2" thru_hole circle
+		(at 13.9 0)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d51451c9-dfc9-49cd-9f77-d578fde6ca5c")
+	)
+	(embedded_fonts no)
+)

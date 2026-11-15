@@ -1,0 +1,99 @@
+(footprint "BananaJack_CalTest_CT3151V1_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cal Test CT3151V1 vertical PCB-mount 4 mm banana jack, four terminals (pad pattern as on the original board: not checked against the manufacturer drawing)")
+	(tags "banana jack 4mm")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.Fab")
+		(uuid "3fcb4e50-9133-4980-bd7b-d3d22a367627")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BananaJack_CalTest_CT3151V1_Vertical"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "6f6f6a2e-048e-4d8e-afb9-f7853355c602")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d3edd5c-b733-456d-9d3e-c749fa02eafa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7299137e-ecb3-4691-8cf9-0e1aedabec15")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fddf9466-84a1-45cf-95d7-c6fa6bf51d1b")
+	)
+	(pad "1" thru_hole circle
+		(at -2.481 0.012)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9c97c953-620b-49be-8791-8fb1bd0c031c")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.38)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "03435a1b-7812-47f1-b2d5-e8efe29dc7c6")
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.38)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b552536-872f-44a7-8aa4-3e527a91a46b")
+	)
+	(pad "1" thru_hole circle
+		(at 2.279 0.012)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e4e8cdf-395a-413e-8e0e-e9316c177bea")
+	)
+	(embedded_fonts no)
+)

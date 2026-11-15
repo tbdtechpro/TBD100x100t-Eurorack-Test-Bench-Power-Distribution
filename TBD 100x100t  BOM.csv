@@ -1,16 +1,31 @@
-Ref,Description,Package,Value,Qty,Mouser,Tayda
--12v Banana Socket,Test Plugs & Test Jacks VERTICAL PCB MOUNT,,,1,510-CT3151V1-6,
-(+)12v Banana Socket,Test Plugs & Test Jacks VERTICAL PCB MOUNT,,,1,510-CT3151V1-4,
-GND Banana Socket,Test Plugs & Test Jacks VERTICAL PCB MOUNT,,,1,510-CT3151V1-0,
-5v Banana Socket,Test Plugs & Test Jacks VERTICAL PCB MOUNT,,,1,510-CT3151V1-2,
-"F1, F2, F3",Resettable Fuses - PPTC 1.1A 30V,,,3,652-MF-R110-2,
-"C1, C2, C3, C4, C7, C8",Aluminum Electrolytic,5mm Pitch,47uF,6,667-EEU-FC1J470B,
-"C5, C6, C9",Aluminum Electrolytic,5mm Pitch,22uF,3,667-EEU-FC1H220B,
-"FB1, FB2, FB3",Ferrite Beads EMI/RFI Suppressor Filter,,,3,807-4211R-29TR,
-16 pin sockets,2 Row 16 Position 2.54 mm pitch sockets,,,5,517-N2516-6002RB,
--12v Test Probe Socket,Test Plugs & Test Jacks horizontal,DO-35,,2,530-105-0760-1,
-(+)12v Test Probe Socket,Test Plugs & Test Jacks horizontal,HC49,,1,530-105-0757-1,
-GND Test Probe Socket,Test Plugs & Test Jacks horizontal,DIP8,,1,530-105-0753-150,
-5v Test Probe Socket,Test Plugs & Test Jacks horizontal,DIP14,,1,530-105-0752-1,
-Terminal Block,4 Pole - Fixed Terminal Block,5mm pitch,,1,490-TB001-500-04BE,
-,TBD100x100t PCB,100x100,,1,,
+Refs,Qty,Value,Manufacturer,Part number,Footprint,Description
+"C1, C5, C9",3,47uF 50V,Panasonic,EEU-FR1H470,CP_Radial_D6.3mm_P2.50mm,"Low-ESR electrolytic, filter input leg"
+"C2, C6, C10",3,1000uF 25V,Panasonic,EEU-FR1E102,CP_Radial_D10.0mm_P5.00mm,"Low-ESR electrolytic, filter output leg / bus reservoir"
+"C3, C7, C11",3,10uF 25V X7R,TDK,FG26X7R1E106KRT06,C_Disc_D6.0mm_W4.4mm_P5.00mm,"Radial MLCC, high-frequency bypass on the bus"
+"C4, C8, C12",3,100nF 50V X7R,TDK,FG28X7R1H104KNT06,C_Disc_D5.0mm_W2.5mm_P5.00mm,"Radial MLCC, high-frequency bypass on the bus"
+"D1, D2, D3",3,1N5822,onsemi / Vishay,1N5822,D_DO-201AD_P12.70mm_Horizontal,"Schottky clamp to 0V: stops the rail reversing, trips the fuse on a swapped lead"
+D4,1,LED 3mm,,,LED_D3.0mm,"Rail-alive indicator, -12V after the fuse"
+D5,1,LED 3mm,,,LED_D3.0mm,"Rail-alive indicator, +12V after the fuse"
+D6,1,LED 3mm,,,LED_D3.0mm,"Rail-alive indicator, +5V after the fuse"
+"F1, F2, F3",3,MF-R110,Bourns,MF-R110,Fuse_Bourns_MF-R110,"PPTC resettable fuse, 1.1 A hold, 2.2 A trip, 30 V"
+J1,1,CT3151V1-6,Cal Test Electronics,CT3151V1-6,Banana_CalTest_CT3151V1_Vertical,"Banana jack, -12V in"
+J2,1,CT3151V1-4,Cal Test Electronics,CT3151V1-4,Banana_CalTest_CT3151V1_Vertical,"Banana jack, +12V in"
+J3,1,CT3151V1-0,Cal Test Electronics,CT3151V1-0,Banana_CalTest_CT3151V1_Vertical,"Banana jack, 0V"
+J4,1,CT3151V1-2,Cal Test Electronics,CT3151V1-2,Banana_CalTest_CT3151V1_Vertical,"Banana jack, +5V in"
+J5,1,105-0760-001,Cinch / Johnson,105-0760-001,TipJack_Johnson_105-075x_Horizontal_P10.16mm,"Tip jack on the bus, -12V (what the modules see)"
+J6,1,105-0757-001,Cinch / Johnson,105-0757-001,TipJack_Johnson_105-075x_Horizontal_P10.16mm,"Tip jack on the bus, +12V (what the modules see)"
+J7,1,105-0753-001,Cinch / Johnson,105-0753-001,TipJack_Johnson_105-075x_Horizontal_P10.16mm,"Tip jack on the bus, GND (what the modules see)"
+J8,1,105-0752-001,Cinch / Johnson,105-0752-001,TipJack_Johnson_105-075x_Horizontal_P10.16mm,"Tip jack on the bus, +5V (what the modules see)"
+"J9, J10, J11, J12",4,Eurorack 2x8,3M,N2516-6002RB,IDC-Header_2x08_P2.54mm_Vertical,"Eurorack 16-pin shrouded power header, pin 1 (-12V) at the bottom"
+J14,1,TB001-500-04BE,Same Sky (CUI Devices),TB001-500-04BE,TerminalBlock_SameSky_TB001-500-04_1x04_P5.00mm,"Terminal block to an extension board; top to bottom -12V, +12V, 0V, +5V (pin 1 is +5V)"
+JP1,1,Current link,,,PinHeader_1x02_P2.54mm_Vertical,2-pin header with shunt: remove to put an ammeter in series with -12V
+JP2,1,Current link,,,PinHeader_1x02_P2.54mm_Vertical,2-pin header with shunt: remove to put an ammeter in series with +12V
+JP3,1,Current link,,,PinHeader_1x02_P2.54mm_Vertical,2-pin header with shunt: remove to put an ammeter in series with +5V
+"L1, L2, L3",3,10uH,Bourns,RLB0914-100KL,L_Radial_D8.7mm_H12.0mm_P5.00mm_Bourns_RLB0914,"Radial power inductor, 2.7 A, 48 mOhm max; filter series element (replaces obsolete 4211R-29 bead)"
+"R1, R2",2,4.7k,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,"LED series resistor, 0.25 W"
+R3,1,1.5k,,,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,"LED series resistor, 0.25 W"
+TP1,1,-12V IN,Keystone,5010,TestPoint_Keystone_5010-5014_Multipurpose,"Test loop, -12V at the input (what the supply delivers)"
+TP2,1,+12V IN,Keystone,5010,TestPoint_Keystone_5010-5014_Multipurpose,"Test loop, +12V at the input (what the supply delivers)"
+TP3,1,+5V IN,Keystone,5010,TestPoint_Keystone_5010-5014_Multipurpose,"Test loop, +5V at the input (what the supply delivers)"
+TP4,1,GND,Keystone,5011,TestPoint_Keystone_5010-5014_Multipurpose,"Ground loop for a scope clip, input side"
+TP5,1,GND,Keystone,5011,TestPoint_Keystone_5010-5014_Multipurpose,"Ground loop for a scope clip, bus side"

@@ -1,0 +1,138 @@
+(footprint "CP_Radial_D4.4mm_P5.08mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Polarised radial capacitor, 5.08 mm lead spacing, 4.4 mm body outline (original DipTrace pattern CAPPRD508W51D440H961)")
+	(tags "capacitor radial polarised")
+	(property "Reference" "REF**"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(uuid "d089374a-05c9-4be2-b9c8-2bdbc1ce2806")
+		(effects
+			(font
+				(size 1.28 1.28)
+				(thickness 0.196)
+			)
+		)
+	)
+	(property "Value" "CP_Radial_D4.4mm_P5.08mm"
+		(at 0 4.85 0)
+		(layer "F.Fab")
+		(uuid "dd517681-87f8-436c-8541-573846102a8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a31364b-8bff-4a88-ac59-a1313c214527")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be99d0f7-4292-43f8-9d7a-1ae8571d2231")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start -2.07 -0.74)
+		(mid 0 -2.2)
+		(end 2.07 -0.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e961f46-a264-461b-b908-aff573b0a3d8")
+	)
+	(fp_arc
+		(start 2.07 0.74)
+		(mid 0 2.2)
+		(end -2.07 0.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5901e105-a6e6-420a-b830-3d9f1fc6c2b8")
+	)
+	(fp_circle
+		(center -1.8597 -1.8597)
+		(end -1.6097 -1.8597)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3119de4e-527e-4d87-9e70-0e93f753177b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.35 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "1cea377f-370d-4d21-84f7-4fd0d8ee6a9c")
+	)
+	(fp_circle
+		(center -2.079 -2.079)
+		(end -1.579 -2.079)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d614cd90-3923-46e0-8247-fb6f30c4b721")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "98117ee3-8403-4f28-b1ec-7379e1f90e04")
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.11 1.11)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9714cff-12da-44f1-a2a4-9d49685b2c56")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.11 1.11)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1485432d-131e-4a7a-ac62-9ab8eb799300")
+	)
+	(embedded_fonts no)
+)

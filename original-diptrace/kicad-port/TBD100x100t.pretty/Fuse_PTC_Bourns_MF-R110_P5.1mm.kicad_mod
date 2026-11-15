@@ -1,0 +1,152 @@
+(footprint "Fuse_PTC_Bourns_MF-R110_P5.1mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bourns MF-R110 radial PTC resettable fuse, 5.1 mm lead spacing (original DipTrace pattern MFR1102)")
+	(tags "PTC polyfuse radial")
+	(property "Reference" "REF**"
+		(at 0 -2.45 0)
+		(layer "F.SilkS")
+		(uuid "97e34c9e-6f7f-41f5-91f9-3e42c01a0320")
+		(effects
+			(font
+				(size 1.28 1.28)
+				(thickness 0.196)
+			)
+		)
+	)
+	(property "Value" "Fuse_PTC_Bourns_MF-R110_P5.1mm"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "272ee97d-30fc-4efd-814c-bc43eab785ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d67793a-30e6-499a-b39f-f3c2c74f601b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c513f880-e4a7-4295-b69e-8f8550c2bf80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.45 -1.5)
+		(end 4.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a070489-4ac0-425f-ae6c-c83196221327")
+	)
+	(fp_line
+		(start -4.45 1.5)
+		(end -4.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "930b507d-a278-4fd6-b129-9378bc2f643c")
+	)
+	(fp_line
+		(start 4.45 -1.5)
+		(end 4.45 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70a55394-3b0f-480b-b52f-7b48fd9145f6")
+	)
+	(fp_line
+		(start 4.45 1.5)
+		(end -4.45 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b421e919-003d-4a86-be11-9077c6426fa4")
+	)
+	(fp_line
+		(start -4.45 -1.5)
+		(end 4.45 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1641313-0898-4187-b0d8-7f3b9696dd05")
+	)
+	(fp_line
+		(start -4.45 1.5)
+		(end -4.45 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00ff413e-7fce-4493-aa09-50696fd3c41f")
+	)
+	(fp_line
+		(start 4.45 -1.5)
+		(end 4.45 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1dbd5567-ff8c-464f-a712-28d3e4e972d1")
+	)
+	(fp_line
+		(start 4.45 1.5)
+		(end -4.45 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e818a48-0337-49fe-b4ae-74cc274e25ea")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5543 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "683c8a63-7adf-4313-a73a-607df9a4dc26")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5457 0)
+		(size 1.217 1.217)
+		(drill 0.71)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c17b871c-1217-442c-a3b5-aadf5017b222")
+	)
+	(embedded_fonts no)
+)

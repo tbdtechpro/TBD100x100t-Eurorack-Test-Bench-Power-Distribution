@@ -1,0 +1,113 @@
+(footprint "TipJack_Johnson_105-07xx_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cinch/Johnson 105-07xx horizontal PCB tip jack, two legs 10.16 mm apart (pad pattern as on the original board: not checked against the manufacturer drawing)")
+	(tags "tip jack test point")
+	(property "Reference" "REF**"
+		(at 0 -7.6 0)
+		(layer "F.Fab")
+		(uuid "6a5e295b-6c53-43a8-8032-9b29515d811b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TipJack_Johnson_105-07xx_Horizontal"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "51a3e28f-bb67-4095-8791-183877666e95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30bb1913-1b5e-4999-a098-4d330f6bf711")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d44ea695-c92f-491f-9d72-5dd79d36a0ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2.06 -6.56)
+		(end 1.89 6.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4683aa31-ae71-4a15-9e71-600dd3df9727")
+	)
+	(pad "1" thru_hole custom
+		(at 0 -5.08)
+		(size 1.9 1.9)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 1.2 1) (xy -1.2 1) (xy -1.2 0.2) (xy -1.1591 -0.1106) (xy -1.0392 -0.4) (xy -0.8485 -0.6485)
+					(xy -0.6 -0.8392) (xy -0.3106 -0.9591) (xy 0 -1) (xy 0.3106 -0.9591) (xy 0.6 -0.8392) (xy 0.8485 -0.6485)
+					(xy 1.0392 -0.4) (xy 1.1591 -0.1106) (xy 1.2 0.2)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fa8e30f9-198b-4f42-9f87-3935ff09ecf3")
+	)
+	(pad "2" thru_hole custom
+		(at 0 5.08)
+		(size 1.9 1.9)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.2 -1) (xy 1.2 -1) (xy 1.2 -0.2) (xy 1.1591 0.1106) (xy 1.0392 0.4) (xy 0.8485 0.6485) (xy 0.6 0.8392)
+					(xy 0.3106 0.9591) (xy 0 1) (xy -0.3106 0.9591) (xy -0.6 0.8392) (xy -0.8485 0.6485) (xy -1.0392 0.4)
+					(xy -1.1591 0.1106) (xy -1.2 -0.2)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "89b32984-67a9-4815-a14f-0c43b49c68ad")
+	)
+	(embedded_fonts no)
+)

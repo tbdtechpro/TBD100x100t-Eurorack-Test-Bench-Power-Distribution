@@ -1,0 +1,6 @@
+(version 1)
+
+# The original board keeps the ground pour 0.5 mm clear of the mounting holes.
+(rule "Mounting hole to copper"
+	(condition "A.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_clearance (min 0.5mm)))

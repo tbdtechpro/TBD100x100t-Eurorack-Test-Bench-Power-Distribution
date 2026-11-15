@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TBD100x100t")(type "KiCad")(uri "${KIPRJMOD}/TBD100x100t.pretty")(options "")(descr "Footprints ported from the original DipTrace design"))
+)
